@@ -1,0 +1,22 @@
+name: celestial_cli
+version: 1.0.0-alpha.1
+
+authors:
+  - microlith57 <microlith57@gmail.com>
+
+targets:
+  celestial_cli:
+    main: src/celestial_cli.cr
+
+dependencies:
+  cli:
+    github: mosop/cli
+
+development_dependencies:
+  ameba:
+    github: veelenga/ameba
+    version: ~> 0.9.1
+
+crystal: 0.28.0
+
+license: MIT
